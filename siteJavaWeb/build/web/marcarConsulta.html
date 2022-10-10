@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>Clinica PriseTheSun</title>
+        <link href="bootstrap/bootstrap.min.css" rel="stylesheet">
+        <link href="css/registro.css" rel="stylesheet">
+    </head>
+    <body class="">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <img class="" src="imagens/logo.png" alt="" width="60" height="60">
+                <a class="navbar-brand nav-link disabled" href="#">Praise The Sun</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="nos.html">Quem Somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="registro.html">Registrar-se</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Menu
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="registro.html">Registrar-se</a></li>
+                                <li><hr class="dropdown-divider"></li>            
+                                <li><a class="dropdown-item" href="marcarConsulta.html">Marcar Consulta</a></li>
+                                <li><hr class="dropdown-divider"></li>      
+                                <li><a class="dropdown-item" href="realizarConsulta.html">Realizar Consulta</a></li>
+                                <li><a class="dropdown-item" href="editarConsulta.html">Editar Consulta</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="cadastrarMedico.html">Cadastrar Médico</a></li>
+                                <li><a class="dropdown-item" href="cadastrarAdmin.html">Cadastrar Administrador</a></li> 
+                                <li><a class="dropdown-item" href="cadastrarEspecialidade.html">Cadastrar Especialidade</a></li>  
+                                <li><a class="dropdown-item" href="cadastrarPlano.html">Cadastrar Planos de Saude</a></li>        
+
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-1" type="email" placeholder="Login" aria-label="Search">
+                        <input class="form-control me-1" type="password" placeholder="Senha" aria-label="Search">
+                        <button class="btn btn-lg btn-primary btn-block" type="submit">Entrar</button>
+
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <div class="pt-3">
+            <h1 class="display-5 text-center">Marcar Consulta</h1>
+        </div>
+        <div class="p-5 form-group d-flex justify-content-center">
+            <form class="col-md-6 " novalidate>
+                <div class="mb-3">
+                    <label class="form-label" for="nome">Médico (Especialidade Médica)</label>
+                    <select class="form-select d-block w-100 form-control" id="plano" required>
+                        <option value="">Escolha...</option>
+                        <option>médico 1 - especialidade 1 </option>
+                        <option>médico 2 - especialidade 3 </option>
+                        <option>médico 3 - especialidade 2 </option>
+                        <option>médico 4 - especialidade 4 </option>
+                    </select>
+                </div>
+                <div class="row">
+                <div class="col-md-6 mb-3">
+                    <label class="form-label" for="dataConsulta">Data</label>
+                    <input type="date" class="form-control" id="dataConsulta" placeholder="" value="" required>
+                </div>
+                  <div class="col-md-6 mb-3">
+                    <label class="form-label" for="horaConsulta">Hora</label>
+                    <input type="time" class="form-control" id="horaConsulta" placeholder="" value="" required>
+                </div>
+                </div>
+
+                <div class="">
+                    <button class="btn btn-primary btn-lg btn-block" type="submit">Marcar Consulta</button>
+                </div>
+            </form>
+        </div>
+        <footer class="my-5 pt-5 text-muted text-center text-small">
+            <p class="mb-1">&copy; 2020-2020 PraiseTheSun</p>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#">Privacy</a></li>
+                <li class="list-inline-item"><a href="#">Terms</a></li>
+                <li class="list-inline-item"><a href="#">Support</a></li>
+            </ul>
+        </footer>
+        <script src="bootstrap/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
